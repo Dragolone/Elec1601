@@ -14,7 +14,7 @@ This project uses C++ code that I wrote myself to control the movement of a car.
 
 The core of my solution revolves around the car's directional control. I used the direction of the previous fine-tuning to determine the direction of the next 90-degree rotation. Specifically, the car only uses the front infrared sensor to detect walls during each turn, and I record the data at each step. For the 720-degree rotation at the endpoint, I ensured that the car could make a complete circle without hitting the wall, which was particularly challenging.
 
-To stop the car precisely before the red line, I consulted with my teacher and ended up using a hardcoded approach. I recorded the final sequence of turns—for example, there were ten left turns—and measured the time it took to complete each segment. When the car reaches the designated stop point, the program executes `exit(0)` to terminate.
+To stop the car precisely before the red line, I consulted with my tutors and ended up using a hardcoded approach. I recorded the final sequence of turns—for example, there were ten left turns—and measured the time it took to complete each segment. When the car reaches the designated stop point, the program executes `exit(0)` to terminate.
 
 ### Summary
 
